@@ -1,0 +1,94 @@
+body{
+	background-color: #D6DCDC;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	filter:4px;
+}
+
+a.profile-desc{
+	color: #818181;
+	background-color: rgb(242, 242, 242);
+	text-decoration: none;
+}
+
+.main_bg{
+	/*max-width: 100%;*/
+	min-height: 100%;
+	height:	auto;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+.profile-wrapper{
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 2.5em;
+	min-height: 100%;
+	perspective:1000px;
+	opacity: 0.95;
+}
+
+.profile-header{
+	position: absolute;
+	right: 8%;
+	padding: 0.5em;
+	font-weight: 400;
+	font-size: 1.3em;
+}
+
+a.header-bar{
+	color: #646464;
+	text-decoration: none;
+
+}
+
+.fa-small{
+	font-size: medium;
+}
+
+.profile-card{
+	background-color: #fbfbfb;
+	border-radius: 4px;
+	min-width: 20em;
+	max-width: 24em;
+	min-height: 100%;
+	z-index: 2;
+	text-align: left;
+	position: relative;
+	padding: 7.5em 3em 3em 3em;
+	cursor: default;
+	opacity: 95%;
+}
+
+.main_dp{
+	border-radius: 100%;
+	height: 9em;
+	width: 9em;
+	box-shadow: 0 0 0 0.6em #fbfbfb;
+	position: relative;
+	top: 6.5em;
+	z-index: 4;
+}
+
+.black{
+	background-color: rgba(0,0,0,0.4);
+	/*min-height: 100%;*/
+	min-width: 100%;
+	position: fixed;
+	bottom: 0;
+	/*z-index: 12;*/
+}
+
+h1{
+	font-weight: 400;
+	color: rgba(0,0,0,0.84);
+}
+
+p{
+	font-weight: 300;
+	color: rgba(0,0,0,0.6);
+}
