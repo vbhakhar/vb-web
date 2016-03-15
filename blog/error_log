@@ -1,0 +1,4 @@
+[15-Mar-2016 11:52:28 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/bhakharvineet/public_html/blog/deleteme.wpetxs.php on line 16
+[15-Mar-2016 11:52:28 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/bhakharvineet/public_html/blog/deleteme.wpfezy.php on line 16
+[15-Mar-2016 11:52:28 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/bhakharvineet/public_html/blog/deleteme.wpptvh.php on line 16
+[15-Mar-2016 11:52:33 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/bhakharvineet/public_html/blog/deleteme.wpsmur.php on line 16
